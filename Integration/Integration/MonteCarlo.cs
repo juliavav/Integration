@@ -8,6 +8,7 @@ namespace Integration.Integration
         private const int N = 100;
         private readonly int dim;
         private readonly Func<List<double>, double> f;
+
         private readonly List<Tuple<Func<List<double>, double>, Func<List<double>, double>, double>> g;
 
         public MonteCarlo(Func<List<double>, double> f,
